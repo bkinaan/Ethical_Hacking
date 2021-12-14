@@ -11,7 +11,7 @@ If at the end of the Internet History document terms here were not used, they wi
 ---
 
 ## ARPANET
-This was the first wide-area packet-switching network developed and one of the first to use [[Internet History Support Info#Transmission Control Protocol|TCP]]/[[Internet History Support Info#Internet Protocol|IP]] protocols. It was founded by ARPA and became the foundation of the Internet as we know it today. It also eventually used the NCP.
+This was the first wide-area packet-switching network developed and one of the first to use [[Internet History Support Info#Transmission Control Protocol|TCP]]/[[Internet History Support Info#Internet Protocol|IP]] protocols. It was founded by ARPA and became the foundation of the Internet as we know it today. It also eventually used the NCP. See more [here](https://en.wikipedia.org/wiki/ARPANET).
 
 ## Information Theory
 A scientific study of manipulation, recording, and transfer of digital information. This idea started in the 1920s with Harry Nyquist and Ralph Hartley and was completed by Claude Shannon in the 1940s. The basis of information theory focuses on lossless data compression (ZIP files), lossy data compression (MP3 and JPEG), and channel coding (for [[Terms and Definitions#Digital Subscriber Line|DSL]]). Information theory has become curcial for more than just the Internet. See more [here](https://en.wikipedia.org/wiki/Information_theory).
@@ -35,5 +35,15 @@ Commonly called the TCP. Half of the Internet protocol suite. A set of protocols
 Commonly called the IP. Its main goal is to deliver packets from the source host to the destination host using packet headers. For more information see [[Internet History Support Info#Packet Switching|packet switching]]. It is a complement to the [[Internet History Support Info#Transmission Control Protocol|TCP]]. This system esentially establishes the Internet. The most up-to-date version of IP is IPv6 (Internet Protocol Version 6) and has been in use since 2006. See more [here](https://en.wikipedia.org/wiki/Internet_Protocol).
 
 ## User Diagram Protocol
-Commonly called the UDP. The difference between [[Internet History Support Info#Transmission Control Protocol|TCP]] and UDP is that UPD does not require a prior connection to send data. This means that there is no reliablity in gettng the information to be recieved at all. If there is the chance for data to be lost along the way, the TCP is recommended instead. UDP is often used in systems where error checking is unnecessary or done in the application. The upside to TCP is thta UDP is much faster as it doesn't need to spend time ensuring all data as been received (and needing to resend whatever is missing). If missing packets are acceptable, UDP is suitable. 
+Commonly called the UDP. The difference between [[Internet History Support Info#Transmission Control Protocol|TCP]] and UDP is that UPD does not require a prior connection to send data. This means that there is no reliablity in gettng the information to be recieved at all. If there is the chance for data to be lost along the way, the TCP is recommended instead. UDP is often used in systems where error checking is unnecessary or done in the application. The upside to TCP is thta UDP is much faster as it doesn't need to spend time ensuring all data as been received (and needing to resend whatever is missing). If missing packets are acceptable, UDP is suitable. See more [here](https://en.wikipedia.org/wiki/User_Datagram_Protocol).
 
+## National Physical Laboratory Network
+Also known as the NPL Network or NPL Data Communications. A local area computer network. Implemented [[Internet History Support Info#Packet Switching|packet switching]] and high-speed links. It ran off a design proposed by Donald Davies. There were two versions Mark I (1969 - 1973) and Mark II (1973 - 1986). See more [here](https://en.wikipedia.org/wiki/NPL_network).
+
+## CYCLADES
+A French research network that used [[Internet History Support Info#Packet Switching|packet switching]] and was solely designed for [[Internet History Support Info#Internetworking|internetworking]]. This system forced host systems be responsible for successful delivery of information instead of having the network system do this. This concept came to be known as the [[Internet History Support Info#End-To-End Principle|end-to-end principle]].
+
+## Internetworking
+Connecting multiple computer networks. It allows any two computers to exchange messages without needing to worry about their respective level of networking hardware. The term comes from *inter* and *networking*. Before this term was used, the term catenet (combination of *con*catination and *net*works). Eventually this was all shortented to Internet. See more [here](https://en.wikipedia.org/wiki/Internetworking).
+
+## End-To-End Principle
