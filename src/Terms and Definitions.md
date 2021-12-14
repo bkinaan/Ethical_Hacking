@@ -20,7 +20,7 @@ Below is a list of terms I have come across and have yet to define. They current
 **Definition:** Digitally confirming code has not been altered since the original author created it. It employs a cryptographic hash to validate the code.
 
 ## Computer Security Exploit
-A set of instructions that takes advantage of a bug in the source code to cause unanticipated behavior.
+**Definition:** A set of instructions that takes advantage of a bug in the source code to cause unanticipated behavior.
 
 ### Types of Exploits
 There are many different types of exploits. They are generally classified by how the attacked communicates with the vulnerable software.
