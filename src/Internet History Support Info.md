@@ -3,8 +3,15 @@ This document contains supporting information and links to external resources. E
 
 *Note: Highlighted terms in this document are ones that I think will be defined later and will need to be linked.*
 
+---
+
+## Topics Not Used in the Document
+If at the end of the Internet History document terms here were not used, they will be compiled and listed here for reference.
+
+---
+
 ## ARPANET
-This was the first wide-area packet-switching network developed and one of the first to use ==TCP/IP== protocols. It was founded by ARPA and became the foundation of the Internet as we know it today. It also eventually used the NCP.
+This was the first wide-area packet-switching network developed and one of the first to use [[Internet History Support Info#Transmission Control Protocol|TCP]]/[[Internet History Support Info#Internet Protocol|IP]] protocols. It was founded by ARPA and became the foundation of the Internet as we know it today. It also eventually used the NCP.
 
 ## Information Theory
 A scientific study of manipulation, recording, and transfer of digital information. This idea started in the 1920s with Harry Nyquist and Ralph Hartley and was completed by Claude Shannon in the 1940s. The basis of information theory focuses on lossless data compression (ZIP files), lossy data compression (MP3 and JPEG), and channel coding (for [[Terms and Definitions#Digital Subscriber Line|DSL]]). Information theory has become curcial for more than just the Internet. See more [here](https://en.wikipedia.org/wiki/Information_theory).
@@ -19,7 +26,14 @@ A way to share computer resources to multiple users by using multithreading and 
 Instead of sending entire files at once, the data is broken up into "packets" which could each follow a different route to their destination. This allowed networking systems to avoid being slowed down by large amounts of data. Packets are made of a header and a payload. The header is used to ensure the network sends the packet to the correct location. The payload contains the information that is part of a larger file. This payload is unpacked by a process at its destination and rebuilt into the complete file (more on this later in the article). See more [here](https://en.wikipedia.org/wiki/Packet_switching).
 
 ## Network Control Program
-Also known as the NCP, this program ran on the ARPANET. It used user's email addresses to establish connetions. It assinged two ports (each called a simplex port) to each user's application/protocol. Later, ==TCP== and ==UDP== which replaced the NCP only needed to use a single port (called a duplex port).
+Also known as the NCP, this program ran on the ARPANET. It used user's email addresses to establish connetions. It assinged two ports (each called a simplex port) to each user's application/protocol. Later, [[Internet History Support Info#Transmission Control Protocol|TCP]] and [[Internet History Support Info#User Diagram Protocol|UDP]] which replaced the NCP and only needed to use a single port (called a duplex port). See more [here](https://en.wikipedia.org/wiki/Network_Control_Program).
 
-## TCP
-Half of the Internet protocol suite. A set of protocols used in computer networks. 
+## Transmission Control Protocol
+Commonly called the TCP. Half of the Internet protocol suite. A set of protocols used in computer networks to moderate the transfer of information. This protocol requires a connection (and completes a system test to ensure that connection actually works) to send information. Its complement is the [[Internet History Support Info#Internet Protocol|IP]]. This system provides a secure and reliable system for sending bytes between applications running on hosts that communicate over a network. See more [here](https://en.wikipedia.org/wiki/Transmission_Control_Protocol).
+
+## Internet Protocol
+Commonly called the IP. Its main goal is to deliver packets from the source host to the destination host using packet headers. For more information see [[Internet History Support Info#Packet Switching|packet switching]]. It is a complement to the [[Internet History Support Info#Transmission Control Protocol|TCP]]. This system esentially establishes the Internet. The most up-to-date version of IP is IPv6 (Internet Protocol Version 6) and has been in use since 2006. See more [here](https://en.wikipedia.org/wiki/Internet_Protocol).
+
+## User Diagram Protocol
+Commonly called the UDP. The difference between [[Internet History Support Info#Transmission Control Protocol|TCP]] and UDP is that UPD does not require a prior connection to send data. This means that there is no reliablity in gettng the information to be recieved at all. If there is the chance for data to be lost along the way, the TCP is recommended instead. UDP is often used in systems where error checking is unnecessary or done in the application. The upside to TCP is thta UDP is much faster as it doesn't need to spend time ensuring all data as been received (and needing to resend whatever is missing). If missing packets are acceptable, UDP is suitable. 
+

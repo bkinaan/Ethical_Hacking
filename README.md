@@ -1,5 +1,5 @@
 # README
-Welcome! This document contains important information you should know before diving in to all the information here. While I initally intended this Vault to only contain information specifically pertaining to ethical hacking, I realized that understanding a topic like that required a much more broad view of the Internet and other technologies first.
+Welcome! This document contains important information you should know before diving in to all the information here. While I initally intended this Vault to only contain information specifically pertaining to ethical hacking, I realized that understanding a topic like that required a much more broad view of the Internet and other technologies first. The end goal of this compilation of information is to understand ethical hacking and how to properly implement it.
 
 ## Seeing the markdown files
 You can view the files as standard markdown files (.md). Standard linking to external files does work. However, to get full access to backlinking, download the files and open them as a Vault in [Obsidian](https://obsidian.md).
