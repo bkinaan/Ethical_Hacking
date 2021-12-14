@@ -4,7 +4,7 @@ Welcome! This document contains important information you should know before div
 ## Seeing the markdown files
 You can view the files as standard markdown files (.md). Standard linking to external files does work. However, to get full access to backlinking, download the files and open them as a Vault in [Obsidian](https://obsidian.md). This will allow you to link to other documents so you can easily find information to whatever you are currently reading. I highly recommend doing this.
 
-## Documents
+# Documents
 There are a number of documents contained in the src folder. Below is a description of each.
 
 ## Internet History Support Info
