@@ -5,11 +5,6 @@ This document contains supporting information and links to external resources. E
 
 ---
 
-## Topics Not Used in the Document
-If at the end of the Internet History document terms here were not used, they will be compiled and listed here for reference.
-
----
-
 ## ARPANET
 This was the first wide-area packet-switching network developed and one of the first to use [[Internet History Support Info#Transmission Control Protocol|TCP]]/[[Internet History Support Info#Internet Protocol|IP]] protocols. It was founded by ARPA and became the foundation of the Internet as we know it today. It also eventually used the NCP. See more [here](https://en.wikipedia.org/wiki/ARPANET).
 
