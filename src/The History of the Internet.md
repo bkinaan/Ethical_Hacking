@@ -5,6 +5,8 @@ First, what exactly is the Internet? The Internet is the global system of interc
 
 [Here](https://en.wikipedia.org/wiki/History_of_the_Internet) is the source for the main content of this timeline.
 
+*Note: I'm truly sorry if any of the external links don't work. I know that it is so frustrating when *
+
 ## Why was the Internet created?
 Before 1983, virtually every computer lived in its own world. They had no contact with each other. Of course, with certain companies there were networks where computers could talk to each other but publically this didn't exist. Actually, the Internet was first created for military purposes. While people all over the world were working to invent the Internet, the U.S. Department of Defence research arm known as the Advanced Resarch Projects Agency (ARPA) -- note you might recognize this group's current name the Defense Advanced Research Projects Agency (DARPA) -- had enough funding and manpower to carry it out. Without ARPA, the Internet would have never been created. In 1969 ARPA had created a network of computers (called ARPANET) that connected universities, government agencies, and defense contracotrs from around the country. ARPANET was a huge hit but it wasn't the Internet. It had a huge problem -- it wasn't mobile. If the government wanted to use this technology on the front lines, they couldn't be lugging around computers the size of entire rooms and have them all be hard wired together. To solve this problem there were two things that needed to happen. First, was to build a wireless network that could relay information by radio or satellite. The second was to connect this wireless system to the current ARPANET. This was called "internetworking". 
 
@@ -19,3 +21,14 @@ After this, the next great invention was [[Internet History Support Info#Packet 
 
 ## Great, now what?
 Now that the technology was ready, some prototype network systems were created. These include the [[Internet History Support Info#National Physical Laboratory Network|NPL Network]], [[Internet History Support Info#ARPANET|APRANET]], [[Internet History Support Info#CYCLADES|CYCLADES]], . 
+
+
+
+
+
+
+# Topics for future discussion
+Here I will include topics that I have come across in my research that I have not yet gotten to in this document or I don't really have a place for it to go. 
+
+## Richard Hamming
+When dealing with error detection/correction. Hamming created the first error correction models. This was when punchcards were used to input code, not a terminal
