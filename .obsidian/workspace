@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "src/Internet History Support Info.md",
-            "mode": "source"
+            "file": "src/Terms and Definitions.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/Internet History Support Info.md",
+                "file": "src/Terms and Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "6a2b3f011e3bfbf5",
   "lastOpenFiles": [
-    "src/Internet History Support Info.md",
-    "src/The History of the Internet.md",
     "src/Terms and Definitions.md",
+    "src/The History of the Internet.md",
+    "src/Internet History Support Info.md",
     "README.md",
     "Test.md"
   ]
